@@ -1,0 +1,24 @@
+﻿Commit ID,Date,Author,Commit Message,Related Ticket ID,Notes for Writer
+a7f31c2,4/05/2026,Lina Chen,feat(saved-replies): add folder model and folder CRUD endpoints,DP-2401,"Technical implementation detail. Useful signal that saved reply folders are a real feature, but do not mention APIs in customer-facing release notes."
+c92b8e1,5/05/2026,Marco Silva,feat(saved-replies): show folders in reply picker panel,DP-2401,Customer-facing. Supports release note wording about agents seeing folders when responding to tickets.
+f3d09ab,6/05/2026,Lina Chen,fix(saved-replies): keep uncategorised replies visible after folder migration,DP-2401,Important writer note. Existing saved replies remain available but are not automatically sorted.
+b18e44d,8/05/2026,Nadia Brooks,feat(customer-profile): add read-only activity timeline component,DP-2402,Customer-facing. Supports timeline feature.
+d901a3f,8/05/2026,Nadia Brooks,"feat(customer-profile): include ticket, note, status, and account events in timeline",DP-2402,"Useful detail, but verify exact event types before publishing."
+e62ac71,9/05/2026,Tom Riley,refactor(profile): simplify customer profile data loader,DP-2402,Internal technical change. Probably exclude from release notes.
+ca71d44,10/05/2026,Arjun Patel,perf(search): optimise ticket ID and customer keyword search index,DP-2403,Customer-facing performance improvement. Avoid exact performance claims.
+fa4d92e,10/05/2026,Arjun Patel,test(search): add regression coverage for large workspace search,DP-2403,Internal testing detail. Exclude from release notes.
+de07c13,12/05/2026,Maya Singh,ui(ticket-panel): reorganise ticket detail fields into grouped sections,DP-2404,Customer-facing UI change. Screenshots likely needed.
+ef2309b,12/05/2026,Maya Singh,ui(ticket-panel): move SLA due time into priority summary group,DP-2404,Useful detail for documentation updates. Mention only if relevant.
+ac22bb9,13/05/2026,Maya Singh,chore(ticket-panel): update internal component names,DP-2404,Internal change. Exclude from release notes.
+bb39a01,14/05/2026,Jordan Lee,feat(reports): add first response time filter to reporting views,DP-2405,Customer-facing reporting improvement.
+cf93e77,14/05/2026,Jordan Lee,fix(reports): align first response filter with existing report permissions,DP-2405,May matter if permissions are documented. Otherwise probably exclude.
+dd812f4,15/05/2026,Elena Rossi,fix(sla): display SLA due times using workspace timezone,DP-2406,Customer-facing bug fix. Important for release notes.
+a641cd0,15/05/2026,Elena Rossi,fix(sla): apply workspace timezone to ticket list and report views,DP-2406,Useful detail. Mention affected areas if concise.
+c41ef92,16/05/2026,Noah Kim,fix(merge): remove duplicate tags from merged ticket records,DP-2407,"Customer-facing bug fix, probably brief."
+d18ae30,16/05/2026,Noah Kim,test(merge): add duplicate tag regression test,DP-2407,Internal testing detail. Exclude.
+e4f6721,17/05/2026,Priya Nair,fix(saved-replies): preserve list spacing when inserting saved replies,DP-2408,Customer-facing bug fix.
+f72ca09,18/05/2026,Sam Walker,feat(permissions): add manage automations permission,DP-2409,Customer-facing admin update. Important.
+af037be,18/05/2026,Sam Walker,feat(permissions): expose automation permission in role editor,DP-2409,Useful documentation detail. May need screenshots.
+b6ca882,19/05/2026,Sam Walker,fix(permissions): retain existing admin automation access after migration,DP-2409,Important writer note. Existing admins keep access.
+c03aa18,20/05/2026,Dan Morgan,known-issue(exports): add background processing notice for large CSV exports,DP-2410,Known issue. Useful for release notes and export documentation.
+e11fb55,20/05/2026,Dan Morgan,chore(exports): add monitoring for delayed CSV export jobs,DP-2410,Internal monitoring detail. Exclude unless discussing known issue handling.
