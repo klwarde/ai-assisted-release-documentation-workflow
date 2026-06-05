@@ -1,0 +1,13 @@
+﻿Issue ID,Review Stage,File / Location,Issue Type,Finding,Severity,Recommended Action,Status,Resolution Notes
+REV-001,GitHub repo review,README.md and 05-case-study/case-study.md,Formatting / diagram readability,"Some Mermaid diagram task labels were truncated in GitHub rendering, even though they appeared correctly in VS Code preview.",Medium,Shorten Mermaid node labels and move full prompt names/purpose details into the workflow stages table.,Complete,Use short labels such as “P-000: Generate release contents” and avoid long task descriptions inside diagram boxes.
+REV-002,GitHub repo review,Missing project tracker workbook.,Project transparency,"The tracker is part of the project evidence. It shows how I scoped, planned, revised, and managed the workflow. If it sits outside the repo, it becomes invisible to anyone reviewing the project.",,"Add this to the repo structure: 06-project-management/
+  AI_Assisted_Release_Documentation_Workflow_Tracker.xlsx
+
+And update your README key files table with:
+
+| [Project tracker workbook](06-project-management/AI_Assisted_Release_Documentation_Workflow_Tracker.xlsx) | Optional supporting artefact showing the project overview, WBS tracker, decision log, prompt log, prompt run log, and validation log. |",In progress,
+REV-003,GitHub repo review,Missing lesson learned,Missing caveat,The case study needed clearer context that real workplace source inputs may be less structured than the prototype and may not include writer-facing notes.,,Add a Source quality reflection to the What I learned section.,Complete,Added Source quality subsection and recorded rationale in Decision Log as DEC-005.
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

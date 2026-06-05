@@ -1,0 +1,5 @@
+﻿Run ID,Prompt ID,Input Sources,Output Created,Status,Notes
+RUN-001,P-000,jira-tickets.csv; feature-notes.csv; git-commits.csv; support-feedback.csv,generated-release-contents.csv; generated-release-contents.md,Complete,Prompt generated a draft release contents list from messy source inputs only. The original prepared release contents file was not provided.
+RUN-002,P-004,generated-release-contents.md,draft-release-notes.md,Complete,Prompt generated draft release notes using only the generated release contents table. No extracted changes or grouped release items were provided.
+RUN-003,P-003,generated-release-contents.md,draft-kb-update-plan.md,Complete,Prompt generated a draft KB update plan using only the generated release contents table.
+RUN-004,P-005,generated-release-contents.md; draft-release-notes.md; draft-kb-update-plan.md; release-contents-validation-notes.md; jira-tickets.csv; feature-notes.csv; git-commits.csv; support-feedback.csv,validation-findings.md,Complete,Prompt validated AI-generated documentation outputs against original source inputs and writer validation notes.

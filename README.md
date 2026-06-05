@@ -105,7 +105,7 @@ ai-assisted-release-documentation-workflow/
 | [Validated KB update plan](04-final-outputs/validated-kb-update-plan.md)           | Writer-reviewed plan for related knowledge base updates.            |
 | [Writer validation checklist](03-writer-validation/writer-validation-checklist.md) | Checklist used to review AI-assisted release documentation outputs. |
 | [Prompt set](prompts/)                                                             | Reusable prompts used in the revised workflow.                      |
-| [Project management folder](06-project-management/) | Optional supporting artefacts, including the project tracker workbook and exported planning logs. |
+| [Project management folder](06-project-management/) | Optional supporting artefacts, including the project tracker workbook and exported planning logs for easier GitHub viewing. |
 
 ## What this demonstrates
 
