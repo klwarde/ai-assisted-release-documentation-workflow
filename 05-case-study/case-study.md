@@ -2,7 +2,7 @@
 
 ## Overview
 
-This portfolio project demonstrates an AI-assisted workflow for turning messy product release inputs into validated customer-facing release documentation.
+This portfolio project demonstrates an AI-assisted workflow for turning semi-structured product release inputs into validated customer-facing release documentation.
 
 The project uses a fictional SaaS product, **DeskPilot**, and a fictional release, **DeskPilot 2.4**, to simulate a realistic release documentation process.
 

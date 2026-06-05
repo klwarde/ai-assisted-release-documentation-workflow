@@ -91,6 +91,7 @@ ai-assisted-release-documentation-workflow/
   03-writer-validation/
   04-final-outputs/
   05-case-study/
+  06-project-management/
   prompts/
   archive-baseline/
 ```
