@@ -23,18 +23,18 @@ The workflow uses structured prompts to process messy release source material th
 
 ```mermaid
 flowchart TD
-    A[Messy release source inputs] --> B[P-000: Generate draft <br> release contents]
-    B --> C[Writer validates release contents]
-    C --> D[P-004: Draft customer-facing <br> release notes]
-    C --> E[P-003: Create KB update plan]
-    D --> F[P-005: Validate AI-generated <br> documentation outputs]
+    A[Messy release source inputs] --> B[P-000: Generate draft <br />release contents]
+    B --> C[Writer validates <br /> release contents]
+    C --> D[P-004: Draft customer-<br />facing release notes]
+    C --> E[P-003: Create KB update <br />plan]
+    D --> F[P-005: Validate AI-<br />generated documentation <br />outputs]
     E --> F
     C --> F
     F --> G[Validation findings]
     G --> H[Writer review and final edits]
     H --> I[Final release notes]
-    H --> J[Validated KB update plan]
-    H --> K[Writer validation checklist]
+    H --> J[Validated KB <br />update plan]
+    H --> K[Writer validation <br />checklist]
 ```
 
 ## Source inputs
@@ -105,6 +105,7 @@ ai-assisted-release-documentation-workflow/
 | [Validated KB update plan](04-final-outputs/validated-kb-update-plan.md)           | Writer-reviewed plan for related knowledge base updates.            |
 | [Writer validation checklist](03-writer-validation/writer-validation-checklist.md) | Checklist used to review AI-assisted release documentation outputs. |
 | [Prompt set](prompts/)                                                             | Reusable prompts used in the revised workflow.                      |
+| [Project management folder](06-project-management/) | Optional supporting artefacts, including the project tracker workbook and exported planning logs. |
 
 ## What this demonstrates
 
