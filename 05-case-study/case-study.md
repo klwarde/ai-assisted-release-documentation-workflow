@@ -98,36 +98,36 @@ flowchart TD
 
 ```mermaid
 sequenceDiagram
-    participant Writer as Technical writer
-    participant Sources as Messy source inputs
-    participant AI as AI prompt workflow
-    participant Contents as Generated release contents
-    participant Drafts as Draft documentation outputs
-    participant Validation as Validation findings
-    participant Final as Final documentation package
+    participant writer as Technical writer
+    participant sources as Messy source inputs
+    participant ai as AI prompt workflow
+    participant contents as Generated release contents
+    participant drafts as Draft documentation outputs
+    participant validation as Validation findings
+    participant finaldocs as Final documentation package
 
-    Writer->>Sources: Prepare Jira tickets, feature notes, Git commits, and support feedback
+    writer->>sources: Prepare Jira tickets, feature notes, Git commits, and support feedback
 
-    Writer->>AI: Run P-000: Generate draft release contents
-    AI-->>Contents: Generated release contents list
+    writer->>ai: Run P-000: Generate draft release contents
+    ai-->>contents: Generated release contents list
 
-    Writer->>Contents: Review source alignment, exclusions, caveats, and validation notes
-    Contents-->>Writer: Validated release contents
+    writer->>contents: Review source alignment, exclusions, caveats, and validation notes
+    contents-->>writer: Validated release contents
 
-    Writer->>AI: Run P-004: Draft customer-facing release notes
-    AI-->>Drafts: Draft release notes
+    writer->>ai: Run P-004: Draft customer-facing release notes
+    ai-->>drafts: Draft release notes
 
-    Writer->>AI: Run P-003: Create KB update plan
-    AI-->>Drafts: Draft KB update plan
+    writer->>ai: Run P-003: Create KB update plan
+    ai-->>drafts: Draft KB update plan
 
-    Writer->>AI: Run P-005: Validate AI-generated documentation outputs
-    AI-->>Validation: Accuracy, clarity, risk, KB impact, and confirmation findings
+    writer->>ai: Run P-005: Validate AI-generated documentation outputs
+    ai-->>validation: Accuracy, clarity, risk, KB impact, and confirmation findings
 
-    Writer->>Validation: Review findings and decide what to accept, revise, defer, or flag
-    Validation-->>Writer: Writer-approved decisions
+    writer->>validation: Review findings and decide what to accept, revise, defer, or flag
+    validation-->>writer: Writer-approved decisions
 
-    Writer->>Final: Apply final edits and prepare documentation package
-    Final-->>Writer: Final release notes, validated KB plan, and writer validation checklist
+    writer->>finaldocs: Apply final edits and prepare documentation package
+    finaldocs-->>writer: Final release notes, validated KB plan, and writer validation checklist
 ```
 
 ## Writer validation
